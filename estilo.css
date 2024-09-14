@@ -357,10 +357,10 @@ transition: 1.5s;
     width: 150px;
    }
 
-   .pie-pagina .grupo-1 .box h5{
+   .pie-pagina .grupo-1 .box h5{               /* titulos del fooster*/
     color:black;
     margin-bottom: 25px;
-    font-size: 25px;
+    font-size: 30px;
    }
 
    .pie-pagina .grupo-1 .box p{
@@ -386,7 +386,8 @@ transition: 1.5s;
     padding: 15px 10px;
     text-align: center;
     margin: auto;
-    color: linen;
+    color:black;
+   
    
    }
    
@@ -401,7 +402,6 @@ transition: 1.5s;
 .grupo-3 {
     color:linen;
 }
-
 
     h5{
         font-size: 30px;
