@@ -1,8 +1,12 @@
+
+/* CARRUSEL */
+
 .slaider{
 width: 100vw;
 height: auto;
 margin: auto;
 overflow: hidden;
+padding: 10px 0;
 }
 
 .slaider .slaider-track{
