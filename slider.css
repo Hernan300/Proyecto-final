@@ -43,7 +43,7 @@ padding: 10px 0;
 
 .whatsapp-button {
     position: fixed; /* Asegura que el botón esté fijo en la pantalla */
-    bottom: 20px; /* Distancia desde el borde inferior */
+    bottom: 60px; /* Distancia desde el borde inferior */
     right: 25px; /* Distancia desde el borde derecho */
     background-color: #2ce971; /* Color de fondo verde de WhatsApp */
     color: white; /* Color del ícono */
