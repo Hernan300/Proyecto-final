@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "imagen": "<img src=imagenes-2/botella.deportiva.png  width=140 px height=140px>",
+      "nombre": "Botella Deportiva",
+      "precio": 2000
+    },
+    {
+      "id": 2,
+      "imagen": "<img src=imagenes-2/llaveros.png  width=140 px height=140px>",
+      "nombre": "Llavero",
+      "precio": 2500
+    },
+    {
+      "id": 3,
+      "imagen": "<img src=imagenes-2/camiseta.escuelita.png  width=140 px height=140px>",
+      "nombre": "Camiseta Alternativa",
+      "precio": 13500
+    },
+    {
+      "id": 4,
+      "imagen": "<img src=imagenes-2/camiseta.futsal.png  width=140 px height=140px>",
+      "nombre": "Camiseta Oficial",
+      "precio": 18500
+    },
+    {
+      "id": 5,
+      "imagen": "<img src=imagenes-2/Chomba.azul.png  width=140 px height=140px>",
+      "nombre": "Chomba azul",
+      "precio": 15000
+    },
+    {
+      "id": 6,
+      "imagen": "<img src=imagenes-2/Chomba.banda.png  width=140 px height=140px>",
+      "nombre": "Chomba Oficial",
+      "precio":  16000
+    }
+  ]

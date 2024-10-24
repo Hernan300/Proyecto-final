@@ -17,10 +17,12 @@ body{
     margin: 0 auto;
 }
 
-nav{
-    box-shadow: 0px 3px 5px #333;
-    padding: 10px 0;
-}
+
+
+
+
+
+
 
 
 
@@ -30,35 +32,19 @@ nav{
     font-family: Helvetica;
 }
 
-.logoclub {
-    display: flex;
-    background-color:var(--background-color);
-    justify-content: center;
-    align-items: center;
-    
-}
 
 .container-logo{
     margin-left: 20px;
 }
 
-.carrito-tienda svg{
-    width: 60px;
-    height: 60px;
-    margin-left: 250px;
-   }
+
+
 
 .img{
     max-width: 100%;
 }
 
 
-.titulo-tienda{
-    color:black;
-    margin-left: 200px;
-    justify-content: center;
-    align-items: center;
-    }
 
 .container-logo{
     display: flex;
@@ -79,7 +65,7 @@ color: #333;
 /* TARJETAS */
 
 .productos-general{
-    color: #333;
+    color:yellow;
    text-align: center;
    grid-template-columns: repeat(3,1fr);
    padding: 25px;
@@ -118,7 +104,7 @@ padding: 20px 10px;
 }
 
 .info-producto h2{
-    color: #333;
+    color:brown;
 }
 .precio{
     font-size: 28px;
@@ -159,8 +145,92 @@ a:hover{
 
 /* NUMERO DE PRODCUTOS EN EL CARRITO */
 
-#cuenta-carrito{
-    background-color:blue;
+
+
+
+
+/* nuevo */
+
+
+
+
+.general {
+    display: flex;
+    background-color:var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    column-gap: 200px;
+
+}
+
+.general .logoclub{
+    background-color:var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.container-logo {
+       display: flex;
+  
+} 
+
+.titulo-tienda{
+    color:black;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+    }
+
+  .btn-checkout svg {
+    background-color: lightblue;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline;
+    padding: 10px;
+    float: right;
+    height: 100px;
+    width: 100px;
+    
+}
+
+
+    .container {
+        gap: 90px;
+        display: flex;
+        flex-direction:row;
+       text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 25px;
+           
+    }
+    
+    .principal {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .div {
+        background-color: aliceblue;
+        width: 200px;
+        text-align: center;
+    }
+
+    .carrito-tienda svg{
+        color:darkslategray;
+        width: 60px;
+        height: 60px;
+        margin-left: 250px;
+      
+    }
+
+       
+    #cuenta-carrito{
+    background-color:#333;
     border-radius: 100%;
     display: inline-block;
     width: 20px;
@@ -170,4 +240,51 @@ a:hover{
     position:absolute;
     padding: 2px;
     color:white;
+}
+
+.card{
+    color:#333;
+    background-color:var(--background-color);
+    max-width: 100%;
+   
+}
+
+.card-button{
+background-color: blue;
+}
+
+.button-add{
+    background-color:navy;
+    color:white;
+    width: 100%;
+}
+
+
+
+.card-image{
+image-rendering: optimizeQuality;
+}
+
+.card-price{
+    color:#000;
+
+}
+
+.buttonvolver{
+    background-color:var(--primary-color);
+    color:white;
+    padding: 15px;
+    width: 15%;
+    height: 15%;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.buttonvolver1 {
+    text-align: center;
+    background-color: darkblue;
+    color:white;
+   
 }
