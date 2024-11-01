@@ -3,7 +3,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Venta de Frutas</title>
+    <title>Carrito de Compras</title>
     <link rel="icon" href="./imagenes/Logoprincipal.png" type="images.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
@@ -17,8 +17,9 @@
 <body>
     <header>
         <div class="general-1">
+            <div class="container-logo"> <img src="/imagenes/Logoprincipal.png" alt=""></div>
         <h1>Productos Seleccionados</h1>
-        <p>Verifica tu compra antes de cerrar el pedido. </p>
+        <p>Verifique tu compra antes de cerrarla. </p>
     </div>
 
         <div class="centrar-div">
@@ -47,8 +48,40 @@
                 </tbody>
             </table>
         </section>
+
+
+
         <div class="centrar-div">
-            <button class="button" id="btnComprar">Finalizar Compra</button>
+            <div id="formulario" class="table table-hover table-bordered border-primary">
+                <thead>
+    
+                    <h2 id="titulo">Ingrese sus datos</h2>
+                </thead>
+                <hr>
+                <form id="signup-form">
+                    <label for="name"><strong> Nombre: </strong></label>
+                    <input type="text" id="name" class="form-control mb-3 required" placeholder="Ingrese su nombre"
+                        required />
+                    <label for="surname"><strong> Apellido: </strong></label>
+                    <input type="text" id="surname" class="form-control mb-3 required" placeholder="Ingrese su apellido"
+                        required />
+                    <label for="email"><strong> Email: </strong></label>
+                    <input type="email" id="signup-email" class="form-control mb-3 required" placeholder="Ingrese un mail"
+                        required />
+                    <label for="phone"><strong>Teléfono: </strong></label>
+                    <input type="tel" id="phone" class="form-control mb-3 required" placeholder="Ingrese su teléfono"
+                        required />
+                    <label for="address"><strong>Domicilio: </strong></label>
+                    <input type="text" id="address" class="form-control mb-3 required" placeholder="Ingrese su domicilio"
+                        required />
+                </form>
+            </div>
+           
+            </div>
+        </div>
+    
+        <div class="centrar-div">
+            <button class="button" id="btnComprar">Finalizar Compra</button> 
             </div>
 
             <div class="centrar-div">

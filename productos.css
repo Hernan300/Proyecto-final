@@ -221,7 +221,7 @@ a:hover{
     }
 
     .carrito-tienda svg{
-        color:darkslategray;
+        color:rgb(200, 200, 200);
         width: 60px;
         height: 60px;
         margin-left: 250px;
@@ -287,4 +287,84 @@ image-rendering: optimizeQuality;
     background-color: darkblue;
     color:white;
    
+}
+
+.general-1{
+    background-color:var(--primary-color);
+    display:block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+text-align: center;
+color:#000;
+}
+
+p{
+    text-align: center;
+    color:#000;
+    
+}
+
+.barra{
+background-color: var(--background-color);
+}
+
+.centrar-div {
+    text-align: center;
+  }
+  .header {
+    margin-top: 5%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  #formulario {
+    width: 50%;
+    border: 1px solid;
+    margin-left: 25%;
+  }
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table .nombre {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.table .precio, .table .subtotal {
+    font-weight: bold;
+}
+
+.table .cantidad-input {
+    width: 60px;
+    margin: 0 auto;
+}
+
+.total-row {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #f1f1f1;
+}
+
+.btn.eliminar-pedido {
+    padding: 5px 10px;
+}
+
+.icono-trash {
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+tfoot tr {
+    background-color: #e9ecef;
 }
