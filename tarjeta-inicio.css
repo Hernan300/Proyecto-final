@@ -13,7 +13,7 @@
 #navbar-placeholder{
     /* background-image: url("/imagenes/fotoprincipal1jpg.jpg"); */
     background-size: cover;
-    background-color:var(--background-color);
+    background-color:var(--primary-color);
 }
 
 .container{
@@ -32,7 +32,6 @@ text-align: center;
 .text p{
     color:black;
     text-align: justify;
-
 }
 
 #navbar-placeholder h1{
@@ -40,3 +39,31 @@ text-align: center;
     color: white;
 }
 
+
+#inicio-noticias{
+    display: flex;
+    background-color:var(--primary-color);
+    background-size: cover;
+    padding: 15px;
+          
+}
+
+.titulo-noticias{
+    color:black;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.container-logo{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+#general-historia{
+    background-color: var(--background-color);
+}

@@ -1,0 +1,63 @@
+:root{
+    --light: #E2E2E2;
+    --primary: rgb(9, 9, 71);
+    --secondary: rgb(70, 70, 55);
+}
+
+:root{
+    --primary-color:blue;
+    --background-color: rgb(79, 138, 241);   
+}
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:var(--background-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+
+
+#inicio-horarios{
+    display: flex;
+    background-color:var(--primary-color);
+    background-size: cover;
+    padding: 15px;
+          
+}
+
+.titulo-horarios{
+    color:black;
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    
+}
+
+.container-logo{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+
+.footer-1 {
+    background-color:var(--secondary);
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.horarios{
+    background-color:var(--background-color);
+    text-align: center;
+    padding: 15px;
+   
+}

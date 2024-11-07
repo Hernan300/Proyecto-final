@@ -1,0 +1,127 @@
+:root{
+    --light: #E2E2E2;
+    --primary: rgb(9, 9, 71);
+    --secondary: rgb(70, 70, 55);
+}
+
+:root{
+    --primary-color:blue;
+    --background-color: rgb(79, 138, 241);   
+}
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:var(--background-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+
+
+#inicio-noticias{
+    display: flex;
+    background-color:var(--primary-color);
+    background-size: cover;
+    padding: 15px;
+          
+}
+
+.titulo-noticias{
+    color:black;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.container-logo{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+img{
+    width: 100%;
+    display: block;
+    
+}
+h1 {
+    color: var(--secondary);
+    text-align: center;
+    text-transform: uppercase;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.card-header{
+    height: 200px;
+    width: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+.card-title{
+    text-align: center;
+    margin: 0;
+}
+.card-description{
+    flex-grow: 1;
+}
+.card-header img{
+    border-radius: 10px 10px 0 0;
+}
+.card-body{
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+    padding: 20px 15px;
+    text-align: justify;
+    border: 1px solid #ccc;
+}
+.btn{
+    display: block;
+    background-color:var(--background-color);
+    padding: 5px;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    margin-top: 10px;
+}
+@media(min-width: 480px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:  10px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.footer-1 {
+    background-color:var(--secondary);
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+/* 
+.sobre {
+    transform: rotateX(45deg) rotateZ(-45deg);
+   
+
+} */

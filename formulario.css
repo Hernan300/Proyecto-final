@@ -1,0 +1,51 @@
+
+
+:root{
+    --primary-color:blue;
+    --background-color: rgb(79, 138, 241);   
+}
+
+.container-inicio{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    background-color:darkgrey;
+    width: 100%;
+  
+    
+}
+
+
+#formulario {
+    width: 45%;
+    border: 6px solid;
+    margin-left: 25%;
+    background-color:var(--background-color);
+    margin-bottom: 30px;
+    padding: 10PX 10PX;
+
+    
+  }
+
+.centrar-div {
+    
+    background-color:var(--primary-color);
+
+}
+
+#titulo{
+    color:black;
+    font-size:larger;
+    text-align: center;
+}
+
+#name{
+    color:blue;
+}
+
+
+.footer-1{
+    /* background-color: darkgray; */
+    text-align: center;
+    color:white;
+}
