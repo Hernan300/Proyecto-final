@@ -1,0 +1,170 @@
+:root{
+    --radio : 125px;
+    }
+
+    :root{
+        --primary-color:blue;
+        --background-color: rgb(79, 138, 241);   
+    }
+    
+
+    .anillo-cont {
+       height: 150px;
+       width: 100%;
+       position: relative;
+
+    }
+
+    *,
+    *::before,
+    *::after {
+       box-sizing: border-box;
+    }
+   .anillo-animado,
+    .anillo-animado::before, 
+    .anillo-animado::after{
+       border-radius:50%;
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+    }
+
+   .anillo-animado {
+       background:blue;
+       color: black;   /*color lineas*/
+       display:flex;         /*para centrar el texto*/
+       justify-content:center;
+       align-items:center;
+       text-align:center;
+       width: var(--radio);
+       height: var(--radio);
+       margin: auto;        /*situar en el centro de su conenedor*/
+       padding: 10px 10px;
+      
+    }
+
+.anillo-animado a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+   /* Anillo: box before y after rounded 50% */
+   /* Se usa clip-path para formar el sector circular  */
+   .anillo-animado::before,  
+   .anillo-animado::after {
+       content: "";
+       z-index: -1;
+       margin: -10px;     /*separación entre lineas y caja*/
+       border: 2px solid black; /*grosor y color de la linea animada*/
+       animation: girar-anillo 10s linear infinite; /*Opciones de la animación*/
+       clip-path:polygon(50% 50%, 70% 100%, 0% 100%); /*Sector de anillo*/
+       background: white;
+    }
+   /*Delay para que no se muevan al mismo tiempo: 1/2 de la duración total*/
+   .anillo-animado::before {
+       animation-delay: -5s;
+    }
+   @keyframes girar-anillo {
+      0% {
+         transform: rotate(0deg);
+      }
+      100% {
+       transform: rotate(359deg);
+      }
+   }
+
+   .titulo-horario{
+    color:black;
+    margin-left: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    
+}
+
+/* @charset "utf-8";  */
+a .btn{
+    box-sizing: border-box;
+    }
+
+.body {
+    margin: 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+
+    }
+
+h2 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    }
+
+.tarjeta {
+    max-width: 65vw;
+    margin: 48px auto;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+ 
+    }
+
+    .ladoDer .img{
+        width: 30%;
+        height: 30%;
+    }
+
+
+.contenido {
+    display: flex; 
+    }
+@media (max-width: 728px){
+   .contenido{
+       flex-direction: column;
+   }
+   .tarjeta {
+    max-width: 95vw; 
+    }
+    }
+   .ladoIzq, .ladoDer {
+       width: 100%;
+       }
+   .ladoDer img {
+       width: 100%;
+       height: 100%;
+       border-style: none;
+       }
+   .ladoIzq {
+       background: black;
+       color: white;
+       padding: 48px
+       }
+   .btn {
+       display: inline-block;
+       background: white;
+       margin-right: 4px;
+       padding: 14px;
+       border-radius: 5px;
+       margin-top: 18px;
+       }
+   a.btn{
+       text-decoration: none;
+       }
+   a.btn:first-of-type {
+       background: #5252b4;
+       color: white;
+       }
+    a.btn:hover{
+       opacity: 0.8;
+       } 

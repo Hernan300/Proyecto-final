@@ -176,7 +176,7 @@ border-radius: 0%;
 
 .container-institucional{
     background-color:var(--primary-color);
-    padding: 0PX 5PX;
+    padding: 5PX 5PX;
 }
 
 .container-general{
@@ -206,7 +206,7 @@ border-radius: 0%;
  h3 {
 	margin-top: 2rem;
 	text-decoration: none;
-	color:linen;
+	color:black;
 	background-color:var(--primary-color);
 	text-align: center;
 	border-radius: 3rem;
@@ -348,7 +348,7 @@ transition: 1.5s;
    .pie-pagina{
    width: 100%;
    background-color:var(--background-color);
-   padding: 30PX 10PX;
+   padding: 5px;
    }
 
    .pie-pagina .grupo-1{
@@ -358,7 +358,7 @@ transition: 1.5s;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 50px;
-    padding: 45px 0px;
+    padding: 10px 10px;
    }
 
    .pie-pagina .grupo-1 .box figure{

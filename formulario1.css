@@ -1,0 +1,65 @@
+
+:root{
+    --primary-color:blue;
+    --background-color: rgb(79, 138, 241);   
+}
+
+body {
+    background-color: rgb(162, 193, 233);
+}
+
+.container-inicio {
+    background-color: var(--background-color);
+    display: flex;   
+}
+
+.container-inicio .form{
+   padding: 18px;
+   color:black;
+}
+
+.container-logo{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 180px;
+}
+
+.formulario{
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color:cornflowerblue;
+    padding: 15px;
+}
+
+.nombre, .apellido, .email, .telefono, .domicilio {
+    background-color:gainsboro;
+    padding: 0,5em;
+    margin: 1.5 auto;
+    color:black;
+    width: 40%;
+    height: 45px;
+    font-weight:bold;
+}
+
+.boton{
+    color:white;
+    text-align: center;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 20px;
+    font-size:large;
+}
+
+.bg-dark{
+    background-color:var(--background-color);
+    padding: 20px;
+    text-align: center;
+}
+

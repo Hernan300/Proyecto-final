@@ -67,3 +67,10 @@ text-align: center;
 #general-historia{
     background-color: var(--background-color);
 }
+
+.list-inline a{
+    margin-right : 50px;
+    margin-left: 50px;
+    justify-content: center;
+ 
+}
