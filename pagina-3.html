@@ -8,27 +8,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
    
-    <link rel="stylesheet" href="/productos.css">
+    
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script defer src="./js/fase1.js"></script>
     <script src="./js/carrito.js"></script>
+    <link rel="stylesheet" href="/inicio-registro.css">
+    <!-- <link rel="stylesheet" href="/productos.css"> -->
+
 </head> 
 
-<body>
+<body style="background-color:silver">
     <header>
+
         <div class="general-1">
+            
             <div class="container-logo"> <img src="/imagenes/Logoprincipal.png" alt=""></div>
-        <h1>Productos Seleccionados</h1>
-        <p>Verifique tu compra antes de cerrarla. </p>
+        
+            <div class="titulo">
+            <h1>Productos Seleccionados</h1>
+            <p>Verifique tu compra antes de cerrarla.</p>
+    </div>
     </div>
 
         <div class="centrar-div">
-            <button class="button button-outline"><a href="./pagina-2.html">Volver a la Tienda</a></button> 
-        </div>
         
+   <button class="btn btn-outline" id="btn"><a style="color:black" href="/pagina-2.html">Volver a la Tienda</a></button> 
+               
     </header>
+
+
+
+
     <main>
         <section class="barra">
+            <div class="pedidos">
+                <form action="http://localhost/proyecto%20final/js/pagina-3.php#" name="pedidos" method="POST">
+
             <table>
                 <thead>
                     <tr>
@@ -36,6 +51,7 @@
                         <th id="tablehead">Descripción</th>
                         <th id="tablehead">Importe</th>
                         <th id="tablehead">Quitar</th>
+                        
                     </tr>
                 </thead>
                 <tbody>
@@ -47,48 +63,58 @@
                     </tr> -->
                 </tbody>
             </table>
+        </form>
+    </div>
         </section>
-
-
-
-        <div class="centrar-div">
-            <div id="formulario" class="table table-hover table-bordered border-primary">
-                <thead>
-    
-                    <h2 id="titulo">Ingrese sus datos</h2>
-                </thead>
-                <hr>
-                <form id="signup-form">
-                    <label for="name"><strong> Nombre: </strong></label>
-                    <input type="text" id="name" class="form-control mb-3 required" placeholder="Ingrese su nombre"
-                        required />
-                    <label for="surname"><strong> Apellido: </strong></label>
-                    <input type="text" id="surname" class="form-control mb-3 required" placeholder="Ingrese su apellido"
-                        required />
-                    <label for="email"><strong> Email: </strong></label>
-                    <input type="email" id="signup-email" class="form-control mb-3 required" placeholder="Ingrese un mail"
-                        required />
-                    <label for="phone"><strong>Teléfono: </strong></label>
-                    <input type="tel" id="phone" class="form-control mb-3 required" placeholder="Ingrese su teléfono"
-                        required />
-                    <label for="address"><strong>Domicilio: </strong></label>
-                    <input type="text" id="address" class="form-control mb-3 required" placeholder="Ingrese su domicilio"
-                        required />
-                </form>
-            </div>
            
-            </div>
+        <div class="btnn">
+          <button class="button" id="btnComprar">Finalizar</button>
         </div>
-    
-        <div class="centrar-div">
-            <button class="button" id="btnComprar">Finalizar Compra</button> 
-            </div>
-
-            <div class="centrar-div">
-                <button class="button" id="btnComprar"><a href="./inicio.html">Volver a la página principal</a></button>
-                           </div>
-
     </main>
+<br>
+<br>
+
+<section class="form-contact">
+    
+    <header style="background-color:slateblue">
+      <span>
+        <i  class="fa fa-paper-plane" aria-hidden="true"></i>
+      </span>
+
+      <div class="titulo1">
+        <h1 style="font-size:larger; color:black; text-align: center;">Complete los datos para registrar su compra</h1>
+    </div>
+    </header>
+
+   
+    <div class="registro">
+        <form action="http://localhost/proyecto%20final/inicio-registro.php#" name="registros" method="POST">
+
+  
+      <label for="name">Nombre Completo</label>
+      <!-- <input type="text" name="nombres" id="nombres"> -->
+     <input class="nombre" type="text" name="nombre_completo"  placeholder= "Ingrese su nombre">
+
+      <label for="correo">Correo</label>
+      <!-- <input type="text" name="correo" id="correo"> -->
+      <input class="correo" type="text"  name="correo" placeholder="Ingrese su Email">
+
+
+      <label for="usuario">Usuario</label>
+      <!-- <input type="text" name="celular" id="celular"> -->
+      <input class=usuario type="text" name="usuario" placeholder="Ingrese su usuario">
+
+
+      <label for="clave">Clave</label>
+      <!-- <textarea name="mensaje" id="mensaje"></textarea> -->
+      <input class="clave" type="text" name="clave" placeholder="Ingrese su clave">
+
+                
+      <input style="display: block; margin:auto" class="boton" type= "submit" name="enviar">
+        </form>
+    <br></div>
+  </section>
+
 </body>
 </html>
 

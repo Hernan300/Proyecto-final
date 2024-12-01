@@ -1,0 +1,260 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:blue;
+    --background-color: rgb(79, 138, 241);   
+}
+
+
+/* pagina-3 */
+/* diseño de la pagina de los productos seleccionado en el carrito */
+
+.general-1{
+    background-color:var(--primary-color);
+    display: flex;
+    text-align:center; 
+    color:#000;
+    
+}
+
+.container-logo{
+    
+    margin-right: 180px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.centrar-div{
+    background-color:gray;
+ 
+}
+
+/* 
+.cascoprincipal{
+    background-color:var(--primary-color);
+    text-align: center;
+    
+} */
+
+.registro{
+    background-color:darkslategrey;
+    color:white;
+
+}
+
+
+.form-contact {
+    background-color:var(--background-color);
+    width: 400px;
+    position: absolute;
+    /* top: 50%; */
+    left: 35%;
+    /* transform: translate(-50%, -50%); */
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+    
+  }
+
+  header {
+    width: 100%;
+    background:darkgray;
+    overflow: hidden;
+    color: white;
+  }
+  
+  header span {
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    padding: 2.5rem;
+  }
+  
+  .contact {
+    padding: .8rem;
+    overflow: hidden;
+    color: white;
+  }
+  
+  .contact label, .contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;   
+  }
+  
+  .contact label {
+    font-weight: 700;
+  }
+  
+  .contact input:not([type='submit']), .contact textarea {
+    border: none;
+    border-bottom: 2px solid #ff165d;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color:white;
+  }
+  
+  .contact textarea {
+    min-height: 100px;
+  }
+  
+  input[type='submit'] {
+    padding: 10px;
+    background:red;
+    border:#000;
+    color: white;
+    font-size: 15px;
+    /* pointer-events: none; */
+    cursor: pointer;
+    text-align: center;
+  }
+
+
+p{
+    color:#000;
+    text-align: center;
+    margin-left: 190px;
+}
+
+
+
+.btn {
+    background-color:var(--background-color);
+    
+}
+
+/* encabezado de la tabla con los producntos cargados en el carrito */
+
+#tablehead{
+    color:#000;
+    
+}
+
+.barra{
+    background-color:darkgrey;
+    text-align: center;
+    color:#000;
+
+    }
+    
+    .centrar-div {
+        text-align: center;
+        color:#000;    
+      }
+
+
+/* para poner el simbolo de la manito para eliminar un producto del carrito  */
+
+
+/* pagina-2 */
+
+/* encabezado */
+
+.general {
+    background-color:var(--primary-color);
+    align-items: center;
+    justify-content: center;
+}
+
+.logoclub{
+    display: flex;
+}
+
+ .container-logo1 img{
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+
+}
+
+.titulo-tienda {
+    color:#000;
+    margin-left: 20px;
+    padding: 30px;
+      }
+ 
+        svg {
+        color:#000;
+        width: 70px;
+        height: 70px;
+        margin-left: 100px;
+        }
+
+    .carrito-tienda{
+        padding: 30px;
+    }
+
+/* cuerpo principal donde se ponen los productos */
+
+    .container {
+        gap: 90px;
+        display: flex;
+        flex-direction:row;
+        text-align: center;
+        align-items: center;
+        flex-wrap:wrap;
+        justify-content: center;
+        padding:40px;
+        background-color:darkgray;
+        
+    }
+
+
+/* 
+.registro{
+    color:black;
+    background-color:var(--primary-color);
+    display: flex;
+    text-align:right;
+    
+    
+} */
+
+
+
+.container-inicio{
+background-color:var(--primary-color);
+text-align: center;
+padding: 30px 30px;
+color:black;
+}
+
+
+.boton{
+    background-color:var(--primary-color);
+    color:white;
+    height: 40px;
+    width: 80px;
+
+}
+
+.bg-dark{
+
+    background-color:var(--primary-color);
+    padding: 50px 50px;
+    text-align: center;
+}
+
+
+#btnComprar{
+    display: block; 
+    margin: auto;
+    background-color:#f1948a;
+    color:#000;
+    
+}
+
+#btn{
+    background-color:#f1948a;
+    color:#000;
+}
+
+.btnn{
+    background-color: grey;
+}

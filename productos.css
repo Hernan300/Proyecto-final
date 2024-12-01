@@ -10,38 +10,169 @@
     --background-color: rgb(79, 138, 241);   
 }
 
+/* pagina-3 */
+/* diseño de la pagina de los productos seleccionado en el carrito */
 
-body{
-    background-color: rgb(207, 207, 232);
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-
-.titulo h1{
-    color:blue;
-    margin-left: 15px;
-    font-family: Helvetica;
-}
-
-
-.container-logo{
-    margin-left: 20px;
-}
-
-
-.container-logo{
+.general-1{
+    background-color:var(--primary-color);
     display: flex;
-    width: 130px;
-    height: 130px;
+    text-align: right; 
+    color:#000;
+}
+
+.container-logo{
+    margin-left: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+.h1{
+color:#f1f1f1;
+display: flex;
+margin-left: 170px;
+padding: 5px;
+
+}
+
+p{
+    color:#000;
+    text-align: center;
+    margin-left: 190px;
+}
+
+
+.centrar-div{
+    background-color:yellow;
+}
+
+.btn {
+    background-color:var(--background-color);
+    
+}
+
+/* encabezado de la tabla con los producntos cargados en el carrito */
+
+#tablehead{
+    color:#000;
+    
+}
+
+.barra{
+    background-color:darkgrey;
+    text-align: center;
+    color:#000;
+
+    }
+    
+    .centrar-div {
+        text-align: center;
+        color:#000;    
+      }
+
+      
+
+
+    
+/* para poner el simbolo de la manito para eliminar un producto del carrito  */
+
+
+
+
+/* pagina-2 */
+
+/* encabezado */
+
+.general {
+    background-color:var(--primary-color);
+    align-items: center;
+    justify-content: center;
+}
+
+.logoclub{
+    display: flex;
+}
+
+ .container-logo1 img{
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+
+}
+
+.titulo-tienda {
+    color:#000;
+    margin-left: 200px;
+    padding: 30px;
+      }
+ 
+        svg {
+        color:#000;
+        width: 70px;
+        height: 70px;
+        margin-left: 100px;
+        }
+
+    .carrito-tienda{
+        padding: 30px;
     }
 
-.container-productos nav{
-background-color:var(--background-color);
+/* cuerpo principal donde se ponen los productos */
+
+    .container {
+        gap: 90px;
+        display: flex;
+        flex-direction:row;
+        text-align: center;
+        align-items: center;
+        flex-wrap:wrap;
+        justify-content: center;
+        padding:40px;
+        background-color:darkgray;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+      .header {
+        margin-top: 5%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      } */
+
+
+
+.container-productos .nav{
+background-color:var(--primary-color);
 width: 100%;
 padding: 5px;
 margin-bottom: 40px;
-color: #333;
+color:black;
 
 }
 
@@ -99,7 +230,7 @@ padding: 20px 10px;
     border:none;
     background: none;
     background-color: #000;
-    color:azure;
+    color: white;
     padding: 15px 10px;
     cursor: pointer;
     width: 100%;
@@ -127,48 +258,28 @@ a:hover{
     color:cornsilk;
 }
 
+
+
+
+
 /* NUMERO DE PRODCUTOS EN EL CARRITO */
 
 
 
 
 
-/* nuevo */
 
 
 
 
-.general {
-    display: flex;
-    background-color:var(--primary-color);
-    justify-content: center;
-    align-items: center;
-    column-gap: 200px;
-
-}
-
-.general .logoclub{
-    background-color:var(--primary-color);
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
 
 
-.container-logo {
-       display: flex;
-  
-} 
 
-.titulo-tienda{
-    color:black;
-    margin-left: 200px;
-    justify-content: center;
-    align-items: center;
-    }
 
-  .btn-checkout svg {
-    background-color: lightblue;
+
+
+  .btn-checkout .svg {
+    background-color:red;
     border-radius: 100%;
     margin-right: 10px;
     margin-top: 10px;
@@ -181,18 +292,6 @@ a:hover{
 }
 
 
-    .container {
-        gap: 90px;
-        display: flex;
-        flex-direction:row;
-        text-align: center;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding:15px;
-        background-color: darkgray;
-        
-    }
     
     .principal {
         font-size: 30px;
@@ -200,18 +299,12 @@ a:hover{
     }
 
     .div {
-        background-color: aliceblue;
+        background-color:red;
         width: 200px;
         text-align: center;
     }
 
-    .carrito-tienda svg{
-        color:rgb(200, 200, 200);
-        width: 60px;
-        height: 60px;
-        margin-left: 250px;
-      
-    }
+   
 
        
     #cuenta-carrito{
@@ -227,16 +320,27 @@ a:hover{
     color:white;
 }
 
+
+
+
+
+/* card del catalogo de productos */
+
 .card{
     color:#333;
-    background-color:var(--background-color);
-    max-width: 100%;
+    background-color:var(--primary-color);
+    max-width: 200%;
    
 }
 
 .card-button{
-background-color: blue;
+background-color:red;
+color:blue;
 }
+
+
+
+/* boton de agregar el producto */
 
 .button-add{
     background-color:navy;
@@ -245,15 +349,23 @@ background-color: blue;
 }
 
 
+/* la imagen en la card */
 
 .card-image{
-image-rendering: optimizeQuality;
+/* image-rendering:auto; */
+max-width: 150%;
+
 }
 
+/* importe del producto en la card */
 .card-price{
-    color:#000;
-
+    color:blue;
+    
 }
+
+
+
+
 
 .buttonvolver{
     background-color:var(--primary-color);
@@ -274,39 +386,17 @@ image-rendering: optimizeQuality;
    
 }
 
-.general-1{
-    background-color:var(--primary-color);
-    display:block;
-    justify-content: center;
-    align-items: center;
-    
-}
 
-h1{
-text-align: center;
-color:#000;
-}
 
-p{
-    text-align: center;
-    color:#000;
-    
-}
 
-.barra{
-background-color: var(--background-color);
-}
 
-.centrar-div {
-    text-align: center;
-  }
-  .header {
-    margin-top: 5%;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+
+
+
+
+
+
+
   
   .table-responsive {
     overflow-x: auto;
@@ -352,4 +442,22 @@ background-color: var(--background-color);
 
 tfoot tr {
     background-color: #e9ecef;
+}
+
+
+
+
+/* aca le doy forma a las atrjetas de productos de compra */
+
+
+
+card-name{
+color:black;
+font-size:larger;
+
+
+}
+
+card-image{
+    background-color: chocolate;
 }

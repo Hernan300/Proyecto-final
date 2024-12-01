@@ -27,6 +27,9 @@ const agregarAlCarrito = (frutaId)=>{
         //      return []
         // }
     
+
+
+
        const carritoFrutas = recuperarCarrito()
 
 

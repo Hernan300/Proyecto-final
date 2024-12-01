@@ -16,12 +16,6 @@ $enlace = mysqli_connect ($servidor, $usuario, $clave, $baseDedatos);
 
 ?>
 
-<!--  
-<?php
-
-echo "<h1>Su formulario fue enviado con exito</h1>";
-
-?> -->
 
 
 

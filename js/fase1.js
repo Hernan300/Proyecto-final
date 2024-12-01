@@ -7,7 +7,7 @@ const retornarTablaHTML = (producto)=> {
                 <td>${producto.imagen}</td>
                 <td>${producto.nombre}</td>
                 <td>${producto.precio}</td>
-                 <td>Quitar</td>
+                <td> <button type="button" class="eliminar"> ❌ </button> </td>
             </tr>`
                     }
 
@@ -16,8 +16,9 @@ if(carritoFrutas.length > 0){
     carritoFrutas.forEach((producto)=> tbody.innerHTML += retornarTablaHTML(producto))
 }
 
+
 btnComprar.addEventListener('click', ()=> {
-    alert('Muchas Gracias por su Compra. Los esperamos !!!')
+    alert('Muchas Gracias por su Compra. Lo esperamos en el Club para retirar su pedido.')
     localStorage.removeItem('carritoFrutas')
     tbody.innerHTML = ''
 })
